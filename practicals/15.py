@@ -1,0 +1,8 @@
+l=list(range(1,10))
+print (l)
+print(l[0:6])
+print(l[2:])
+print(l[:8])
+print(l[::-1])
+print(l[9:2:-2])
+print(l[2:10:2])

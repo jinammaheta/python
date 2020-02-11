@@ -1,0 +1,12 @@
+n=int(input("Enter the upper limit for fibonacci series\n"))
+if n>=0:
+    print(0,end=" ")
+if n>=1:
+    print(1,end=" ")
+f1,f2=0,1
+f3=f1+f2
+while f3<=n:
+    print(f3,end=" ")
+    f1=f2
+    f2=f3
+    f3=f1+f2
